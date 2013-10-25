@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="jButton1" alignment="1" min="-2" pref="113" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" alignment="0" pref="619" max="32767" attributes="0"/>
+                      <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="327" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jButton1" min="-2" pref="34" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="24" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Manual"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="Texto_manual">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value="Enunciats dels projectes de PROP&#xa;Quadrimestre de primavera, curs 08/09&#xa;&#xa;Enunciat 1: Agenda personal intel&#xb7;ligent&#xa;&#xa;Es demana fer una agenda/calendari on puguis anotar i gestionar tasques di&#xe0;ries. Hi ha&#xa;com a m&#xed;nim els seg&#xfc;ents tipus de tasques (els noms s&#xf3;n orientatius):&#xa;&#x2022; Cites: Tasques a fer un dia i hora determinat (ex: &quot;reuni&#xf3; amb X, dimecres 15 de&#xa;9:30 a 10:15&#x201d;). Poden haver-hi cites repetitives, com ara &quot;classe d&apos;angl&#xe8;s cada&#xa;dilluns de 19 a 21&quot;, que cal poder gestionar c&#xf2;modament.&#xa;&#x2022; Deadlines: Feines que cal haver fet per tal dia a tal hora, per&#xf2; s&apos;ent&#xe9;n que cal&#xa;anar treballant-hi abans (ex.: &quot;3r lliurament de PROP divendres 15 a les 18:00&quot;).&#xa;A m&#xe9;s de la data l&#xed;mit, a cada deadline se li pot associar una estimaci&#xf3; de la&#xa;quantitat d&#x2019;hores de treball que requereix.&#xa;&#x2022; En ment: Tasques que no tenen un dia i hora concrets ni una data l&#xed;mit, per&#xf2; que&#xa;algun moment voldrem fer. Exemples podrien ser &#x201c;endre&#xe7;ar &#xe0;lbums de fotos&#x201d;,&#xa;&#x201c;aprendre Python i Perl&#x201d;, &#x201c;reprendre el contacte amb els amics de l&#x2019;institut&#x201d; o&#xa;&#x201c;buscar empreses de Barcelona que estiguin contractant gent amb el meu perfil&#x201d;.&#xa;Poden tamb&#xe9; tenir una estimaci&#xf3; d&#x2019;hores.&#xa;Tots els tipus de tasques poden tenir informaci&#xf3; associada (prioritats d&#x2019;1 a 5, temes,&#xa;paraules clau, noms de persones, petites descripcions textuals...) i ha de ser possible&#xa;llistar totes les tasques relacionades amb un cert tema, persona, etc. El programa ha de&#xa;permetre tamb&#xe9; gestionar preced&#xe8;ncies entre tasques, un petit historial de tasques fetes i&#xa;estad&#xed;stiques b&#xe0;siques (per exemple, hores ocupades en cites en un per&#xed;ode donat,&#xa;percentatge de temps passat en cada prioritat o tipus de tasca, volum d&#x2019;hores estimades&#xa;pendents...)&#xa;D&#x2019;altra banda, tenir en compte que moltes tasques en ment s&#xf3;n tan importants o m&#xe9;s que&#xa;les altres per als nostres projectes vitals i professionals, per&#xf2; els acostumem a anar&#xa;deixant perqu&#xe8; sempre hi ha tasques m&#xe9;s urgents que passen davant. Igualment, &#xe9;s f&#xe0;cil&#xa;deixar la feina dels deadlines per al final, i trobar-nos de cop que ja no ens queden prou&#xa;hores per completar-los. Es vol que el programa ens ajudi que deadlines i tasques&#xa;progressin adequadament. Per aix&#xf2;, podria oferir opcions per, per exemple, reservar&#xa;blocs d&#x2019;hores a deadlines i tasques en ment durant la setmana, sense col&#xb7;lisionar amb&#xa;compromisos. O que ens avisi dels deadlines que s&#x2019;estan quedant perillosament&#xa;endarrerits, o si ens estem sobrecarregant de feina (total d&#x2019;hores massa gran) per a un&#xa;per&#xed;ode, o suggerir les tasques amb prioritat alta que ja fa molt temps que anem&#xa;endarrerint, etc.&#xa;&#xa;Enunciat 2: Agenda cultural&#xa;&#xa;Es tracta de fer un programa per gestionar l&apos;agenda cultural d&apos;una organitzaci&#xf3; com ara&#xa;un ajuntament gran. Cal poder introduir esdeveniments, gestionar els espais on es fan&#xa;aquests esdeveniments, mantenir informaci&#xf3; sobre les persones de contacte&#xa;d&apos;esdeveniments i espais, etc.&#xa;L&apos;agenda ha d&apos;ajudar a confeccionar c&#xf2;modament programes culturals formats per mes&#xa;d&apos;un esdeveniment, com ara un cicle peri&#xf2;dic (&quot;cada dilluns de 22:00 a 24:00, un&#xa;concert del cicle X&quot;) o un festival on hi ha molts esdeveniments relacionats en poc&#xa;temps (com ara el Grec). Cada esdeveniment pot tenir associada una s&#xe8;rie d&#x2019;accions&#xa;(una &#x201c;to-do-list&#x201d;) com ara notificacions als mitjans de comunicaci&#xf3;, llistes de persones a&#xa;convidar, reserves especials d&#x2019;equipaments, etc. Els esdeveniments s&#x2019;han de poder&#xa;etiquetar com a &#x201c;fixes&#x201d; (no es pot canviar ni la data ni el lloc) o &#x201c;canviables&#x201d; (el&#xa;programa pot suggerir un canvi de data/espai en cas de que fos necessari per col&#xb7;locar&#xa;un nou esdeveniment m&#xe9;s preferent. Cal poder introduir restriccions en el calendari. Per&#xa;exemple, esdeveniments que cal celebrar amb certa freq&#xfc;&#xe8;ncia (i que el programa avisi&#xa;quan comen&#xe7;a a fer massa temps que no se celebren).&#xa;Aix&#xf2; pel que fa als administradors del sistema. Pel que fa als usuaris d&#x2019;a peu (els&#xa;&#x201c;ciutadans&#x201d;), el programa ha de permetre llistar esdeveniments per temes (m&#xfa;sica/teatre&#xa;/confer&#xe8;ncies&#x2026;), per espais, per paraules clau contingudes en les ressenyes dels&#xa;esdeveniments&#x2026;&#xa;&#xa;Enunciat 3: Planificador d&#x2019;esdeveniments&#xa;&#xa;Es tracta de fer un programa per fixar els horaris (dies i hores) d&apos;un esdeveniment que&#xa;siguin m&#xe9;s convenients per un grup d&apos;assistents. El programa est&#xe0; inspirat en &quot;Doodle&quot;&#xa;(http://www.doodle.com/main.html). Conv&#xe9; que li feu una ullada.&#xa;El sistema admet dos tipus d&apos;usuaris, els administradors i els usuaris. Els administradors&#xa;han de definir les caracter&#xed;stiques de l&apos;esdeveniment a programar (nombre total de dies i&#xa;hores, nombre d&apos;assistents, etc.) i les restriccions que s&apos;han de satisfer (dies possibles,&#xa;hores possibles, nombre m&#xe0;xim d&apos;hores per dia, etc.)&#xa;Un cop definit aquest marc els usuaris han de comunicar les seves restriccions i&#xa;prefer&#xe8;ncies. Aix&#xf2; es podr&#xe0; fer de dues formes: important per part de l&apos;aplicaci&#xf3; les&#xa;agendes personals dels usuaris (definides a l&#x2019;enunciat 1) i/o de forma interactiva a trav&#xe9;s&#xa;d&apos;una interf&#xed;cie gr&#xe0;fica. S&apos;han de tenir en compte les capacitats habituals d&apos;aquests tipus&#xa;d&apos;aplicaci&#xf3; (afegir, modificar, inicialitzar, desfer les &#xfa;ltimes operacions, etc.).&#xa;Un cop tots els participants hagin definit les seves restriccions, el sistema ha de triar&#xa;l&apos;opci&#xf3; m&#xe9;s convenient. S&apos;han de tenir en compte totes les possibles situacions: Que hi&#xa;hagi una o m&#xe9;s possibles solucions que satisfacin totes les restriccions i prefer&#xe8;ncies de&#xa;tots els usuaris, que no totes les prefer&#xe8;ncies es puguin satisfer o que no existeixi cap&#xa;soluci&#xf3; v&#xe0;lida per a tots els usuaris. El sistema haur&#xe0; de prendre una decisi&#xf3; seguint&#xa;criteris que els administradors poden establir (per exemple, satisfer el m&#xe0;xim possible&#xa;de prefer&#xe8;ncies, satisfer el m&#xe0;xim possible d&apos;usuaris, etc.)&#xa;Un cop decidit l&apos;horari final de l&apos;esdeveniment el sistema podr&#xe0;, opcionalment,&#xa;modificar i exportar les agendes actualitzades dels usuaris."/>
+                <Property name="caretPosition" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="Texto_manualPropertyChange"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Cerrar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

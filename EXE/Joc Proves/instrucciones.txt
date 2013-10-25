@@ -1,0 +1,1 @@
+Para ejecutar el juego de pruebas copiar los archivos dentro de la carpeta objects (si ha habido una ejecucion previa no hay necesidad de crear la carpeta)

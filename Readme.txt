@@ -1,0 +1,3 @@
+An old project made back at the university. It was a calendar and task scheduler. It had appointments, notes and a cool functionality where you inserted a deadline, the number of hours it needed, and how much time a day max you would like to dedicate to the task and it automatically inserted the task and scheduled the hours accordingly among the free time left in the day. It's like a smart scheduler and agenda. We had no time to finish it as we would have liked, so has many bugs.
+
+To try it, you must excecute the file called AgendaInteligente4.1 from the EXE 
